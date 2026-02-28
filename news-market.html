@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InvestoLab - Market News</title>
+  <link rel="stylesheet" href="styles.css?v=20260228b" />
+  <script src="nav.js?v=20260227h" defer></script>
+  <script src="config.js?v=20260227a" defer></script>
+  <script src="api-base.js?v=20260227p" defer></script>
+</head>
+<body>
+  <nav class="taskbar">
+    <a href="./index.html" class="brand">InvestoLab</a>
+    <div class="task-links">
+      <a href="./index.html">Overview</a>
+      <div class="nav-dropdown">
+        <a href="./valuation-lab.html" class="nav-dropdown-toggle">Valuation Lab</a>
+        <div class="nav-dropdown-menu">
+          <a href="./valuation.html">Investment Valuation</a>
+          <a href="./portfolio-builder.html">Portfolio Valuation</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <a href="./investotype.html" class="nav-dropdown-toggle">InvestoType</a>
+        <div class="nav-dropdown-menu">
+          <a href="./simulator.html">Simulation</a>
+          <a href="./quiz.html">Quiz</a>
+          <a href="./investor-types.html">Types</a>
+          <a href="./investotype-portfolio.html">AI Portfolio</a>
+        </div>
+      </div>
+            <div class="nav-dropdown">
+        <a href="./news.html" class="nav-dropdown-toggle active" aria-current="page">News</a>
+        <div class="nav-dropdown-menu">
+          <a href="./news-market.html">Market</a>
+          <a href="./news-tailored.html">Tailored</a>
+          <a href="./news-investment-day.html">Day Pick</a>
+          <a href="./news-investment-week.html">Week Pick</a>
+          <a href="./news-investment-month.html">Month Pick</a>
+          <a href="./news-investment-year.html">Year Pick</a>
+        </div>
+      </div>
+      <a href="./about.html">About</a>
+    </div>
+  </nav>
+
+  <header class="hero page-hero">
+    <h1>Market News</h1>
+    <p>Top market headlines with a quick sentiment summary.</p>
+  </header>
+
+  <main class="single-layout">
+    <section class="card valuation-card">
+      <div class="valuation-head">
+        <h2>Market News</h2>
+        <p id="marketNewsDateLabel">Loading market feed...</p>
+      </div>
+      <div id="marketNewsResult" class="valuation-result"></div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="footer-contact-btn" href="mailto:tgrkhwang@gmail.com" aria-label="Contact by email">Contact</a>
+    Copyright (c) 2026 InvestoLab. All rights reserved.
+  </footer>
+
+  <script src="news-market.js?v=20260227n3"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
